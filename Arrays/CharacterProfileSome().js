@@ -39,3 +39,19 @@ const oneMaleCharacter = actors.some((actors) => {
 })
 console.log("\nIs there at least one male character?")
 console.log(oneMaleCharacter)
+
+const olderThanForty = actors.some((actors) => actors.age > 40)
+console.log("\nIs there at least one character older than 40?")
+console.log(olderThanForty)
+
+const roletype = actors.some((actors) => actors.role === "Diplomat") 
+console.log("\nIs there at least one character that is a Diplomat?")
+console.log(roletype)
+
+const massLessThan60 = actors.some((actors) => actors.mass < 60)
+console.log("\nIs there at least one character with a mass less than 60?")
+console.log(massLessThan60)
+
+const nameOnTheList = actors.some((actors) => actors.name === "Johnny Lark")
+console.log("\nIs there a character with the name of Johnny Lark?")
+console.log(nameOnTheList)
