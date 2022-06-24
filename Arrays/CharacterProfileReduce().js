@@ -52,3 +52,14 @@ const actorRole = actors.reduce((acc, cur) => {
     return acc;
 }, {});
 console.log(actorRole)
+
+const actorNames = actors.reduce((acc, cur) => {
+    const actorNames = cur.name;
+    if (acc[actorNames]) {
+        acc[actorNames] ++;
+    } else {
+        acc[actorNames] = 1;
+    }
+    return acc;
+}, {})
+console.log(actorNames)
