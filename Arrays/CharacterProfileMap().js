@@ -56,3 +56,9 @@ console.log(nameAndHeight);
 const firstNames = actors.map((actors) => actors.name.split(" ")[0]);
 console.log("\nThese are the first names of the actors:");
 console.log(firstNames)
+
+
+let theNames = ["Rook", "Doc", "Lockheed", "Vivian"];
+
+let plus1 = theNames.map((theNames) => theNames + "1")
+console.log(plus1);
