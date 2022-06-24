@@ -34,11 +34,6 @@ const actors = [
     },
 ]
 
-const names = actors.map((actors) => {
-    return actors.name;
-});
-console.log("These are the real names of the characters");
-console.log(names);
 
 const eldestActor = actors.filter(actors => {
     return actors.age < 45;
@@ -53,6 +48,8 @@ console.log(talestActors);
 const maleCharacters = actors.filter((actors) => actors.gender === "Male");
 console.log("These are the males characters");
 console.log(maleCharacters);
+
+
 
 
 

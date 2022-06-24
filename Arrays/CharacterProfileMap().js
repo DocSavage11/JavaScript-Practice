@@ -62,3 +62,17 @@ let theNames = ["Rook", "Doc", "Lockheed", "Vivian"];
 
 let plus1 = theNames.map((theNames) => theNames + "1")
 console.log(plus1);
+
+const nameAndAge = actors.map((actors) => ({
+    name: actors.name,
+    age: actors.height
+}))
+console.log(nameAndAge)
+
+
+const nameAndRole = actors.map((actors) => ({
+    name: actors.name,
+    role: actors.role
+}))
+console.log("\nName and Role:")
+console.log(nameAndRole)
