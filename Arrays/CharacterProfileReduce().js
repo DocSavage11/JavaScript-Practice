@@ -63,3 +63,10 @@ const actorNames = actors.reduce((acc, cur) => {
     return acc;
 }, {})
 console.log(actorNames)
+
+
+
+addTwoNumbers = (a, b) => { 
+    return a + b
+}
+console.log(addTwoNumbers(44, 5))
